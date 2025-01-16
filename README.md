@@ -34,13 +34,13 @@ Unzip the respective extension zip and then merge "packages" folder into project
 * Goto config/app.php file and add following line under 'providers'
 
 ```
-Webkul\ImageCrop\Providers\ImageCropServiceProvider::class
+Brainstream\ImageCrop\Providers\ImageCropServiceProvider::class
 ```
 
 * Goto composer.json file and add following line under 'psr-4'
 
 ```
-"Webkul\\ImageCrop\\": "packages/Webkul/ImageCrop/src"
+"Brainstream\\ImageCrop\\": "packages/Brainstream/ImageCrop/src"
 ```
 * Run these below commands to complete the setup:
 
