@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\ImageCrop\Providers;
+namespace Brainstream\ImageCrop\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
@@ -20,7 +20,7 @@ class ImageCropServiceProvider extends ServiceProvider
 
         // Override the specific view
         View::composer('admin::components.media.images', function ($view) {
-            $view->setPath(base_path('packages/Webkul/ImageCrop/src/Resources/views/components/media/images.blade.php'));
+            $view->setPath(base_path('packages/Brainstream/ImageCrop/src/Resources/views/components/media/images.blade.php'));
         });
     }
 

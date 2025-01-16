@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\ImageCrop\Providers;
+namespace Brainstream\ImageCrop\Providers;
 
 use Konekt\Concord\BaseModuleServiceProvider;
 

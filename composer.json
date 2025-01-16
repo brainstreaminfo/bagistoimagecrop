@@ -11,13 +11,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Webkul\\ImageCrop\\": "src/"
+            "Brainstream\\ImageCrop\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Webkul\\ImageCrop\\Providers\\ImageCropServiceProvider"
+                "Brainstream\\ImageCrop\\Providers\\ImageCropServiceProvider"
             ],
             "aliases": {}
         }
