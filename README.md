@@ -29,7 +29,7 @@ The Bagisto Image Crop Extension enhances the product image management experienc
 * Composer 2.6.3 or higher
 
 # Installation :
-Unzip the respective extension zip and then merge "packages" folder into project root directory rename the Extract folder to ImageCrop
+Unzip the Brainstream.zip file and move the extracted folder to the bagisto/packages directory.
 
 * Goto config/app.php file and add following line under 'providers'
 
